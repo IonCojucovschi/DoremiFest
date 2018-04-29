@@ -1,0 +1,16 @@
+
+.displayTable {
+    position: relative;
+    left: 10px;
+    width: calc(100% - 20px);
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
+
+.displayTable th, td {
+    text-align: left;
+    margin:0;
+    padding:5px;
+    border: 1px solid lightgray;
+    width: auto;
+}
